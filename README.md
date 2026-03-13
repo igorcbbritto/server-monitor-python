@@ -13,6 +13,11 @@ Este projeto foi desenvolvido para simular uma rotina simples de monitoramento d
 - Verificação de uso de disco
 - Alertas quando o consumo ultrapassa limites definidos
 
+=== MONITORAMENTO DO SERVIDOR ===
+CPU: 12%
+RAM: 45%
+DISCO: 61%
+
 ## Tecnologias utilizadas
 
 - Python 3
