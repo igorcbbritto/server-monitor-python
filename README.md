@@ -8,24 +8,16 @@ Este projeto foi desenvolvido para simular uma rotina simples de monitoramento d
 
 ## Funcionalidades
 
-- Verificação de uso de CPU
-- Verificação de uso de memória RAM
-- Verificação de uso de disco
+- Monitoramento de CPU
+- Monitoramento de memória RAM
+- Monitoramento de uso de disco
 - Alertas quando o consumo ultrapassa limites definidos
-
-=== MONITORAMENTO DO SERVIDOR ===
-CPU: 12%
-RAM: 45%
-DISCO: 61%
+- Registro de logs com data e hora
+- Monitoramento contínuo em intervalos definidos
 
 ## Tecnologias utilizadas
 
 - Python 3
 - psutil
 
-## Como executar
-
-1. Instale as dependências:
-
-```bash
-pip install -r requirements.txt
+## Estrutura do projeto
