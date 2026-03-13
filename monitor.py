@@ -11,7 +11,7 @@ def check_ram():
     return psutil.virtual_memory().percent
 
 def check_disk():
-    return psutil.disk_usage('/').percent
+    psutil.disk_usage('C:\\')
 
 def show_status():
     cpu = check_cpu()
